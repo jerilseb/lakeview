@@ -2,7 +2,7 @@ name: release
 
 # Builds lakeview for macOS and Linux and attaches the tarballs to the GitHub
 # release for the tag. Asset names follow the convention the formulae in
-# jeril-divyam/homebrew-tap expect: lakeview_<version>_<os>_<arch>.tar.gz
+# jerilseb/homebrew-tap expect: lakeview_<version>_<os>_<arch>.tar.gz
 on:
   push:
     tags: ["v*"]
@@ -184,7 +184,7 @@ jobs:
         run: |
           v="${{ needs.resolve.outputs.version }}"
           {
-            echo "### jeril-divyam/homebrew-tap values for \`lakeview\` $v"
+            echo "### jerilseb/homebrew-tap values for \`lakeview\` $v"
             echo
             echo '```ruby'
             echo "  version \"$v\""

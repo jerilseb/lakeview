@@ -25,10 +25,10 @@ Everything is read-only — lakeview never writes to your lakeFS server.
 ## Install
 
 ```sh
-brew install jeril-divyam/tap/lakeview
+brew install jerilseb/tap/lakeview
 ```
 
-Or take a binary from the [latest release](https://github.com/jeril-divyam/lakeview/releases/latest)
+Or take a binary from the [latest release](https://github.com/jerilseb/lakeview/releases/latest)
 and drop it on your `PATH`:
 
 ```sh
